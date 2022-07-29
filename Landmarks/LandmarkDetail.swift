@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Landmarks
-//
-//  Created by 桝谷希映 on 2022/07/28.
-//
-
 import SwiftUI
 
 struct LandmarkDetail: View {
@@ -34,9 +27,11 @@ struct LandmarkDetail: View {
                    }) {
                          //もしお気に入りならば
                        if self.userData.landmarks[self.landmarkIndex].isFavorite {
+                           // 塗りつぶしされたスター
                            Image(systemName: "star.fill")
                                .foregroundColor(.yellow)
                        } else {
+                           // そうでなければ白抜きスター
                            Image(systemName: "star")
                                .foregroundColor(.gray)
                        }
