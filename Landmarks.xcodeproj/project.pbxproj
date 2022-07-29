@@ -31,6 +31,7 @@
 		81B12CCB2893C4BE00B9D8C5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B12CCA2893C4BE00B9D8C5 /* Data.swift */; };
 		81B12CD32893C93600B9D8C5 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B12CD22893C93600B9D8C5 /* LandmarkRow.swift */; };
 		81B12CD52893CD6A00B9D8C5 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B12CD42893CD6A00B9D8C5 /* LandmarkList.swift */; };
+		81B12CD72893D84400B9D8C5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B12CD62893D84400B9D8C5 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		81B12CCA2893C4BE00B9D8C5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		81B12CD22893C93600B9D8C5 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		81B12CD42893CD6A00B9D8C5 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		81B12CD62893D84400B9D8C5 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				81B12CC82893C0E300B9D8C5 /* Landmark.swift */,
 				81B12CCA2893C4BE00B9D8C5 /* Data.swift */,
+				81B12CD62893D84400B9D8C5 /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				8112F78C2892C49000983A61 /* LandmarkDetail.swift in Sources */,
 				81B12CCB2893C4BE00B9D8C5 /* Data.swift in Sources */,
 				81B12CC62893BB1200B9D8C5 /* MapView.swift in Sources */,
+				81B12CD72893D84400B9D8C5 /* UserData.swift in Sources */,
 				81B12CD52893CD6A00B9D8C5 /* LandmarkList.swift in Sources */,
 				8112F78A2892C48F00983A61 /* LandmarksApp.swift in Sources */,
 				81B12CC42893B7FB00B9D8C5 /* CircleImage.swift in Sources */,
