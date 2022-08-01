@@ -30,6 +30,10 @@
 		819B57D528981A1000F240CB /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B57D428981A1000F240CB /* BadgeSymbol.swift */; };
 		819B57D728981ADD00F240CB /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B57D628981ADD00F240CB /* RotatedBadgeSymbol.swift */; };
 		819B57D928981B3B00F240CB /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B57D828981B3B00F240CB /* Badge.swift */; };
+		819B57DB28981E9500F240CB /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B57DA28981E9500F240CB /* Hike.swift */; };
+		819B57DD289825FA00F240CB /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B57DC289825FA00F240CB /* GraphCapsule.swift */; };
+		819B57DF289826A500F240CB /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B57DE289826A500F240CB /* HikeGraph.swift */; };
+		819B57E1289827F600F240CB /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B57E0289827F600F240CB /* HikeDetail.swift */; };
 		81B12CC42893B7FB00B9D8C5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B12CC32893B7FB00B9D8C5 /* CircleImage.swift */; };
 		81B12CC62893BB1200B9D8C5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B12CC52893BB1200B9D8C5 /* MapView.swift */; };
 		81B12CC92893C0E300B9D8C5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B12CC82893C0E300B9D8C5 /* Landmark.swift */; };
@@ -64,6 +68,10 @@
 		819B57D428981A1000F240CB /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		819B57D628981ADD00F240CB /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		819B57D828981B3B00F240CB /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		819B57DA28981E9500F240CB /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		819B57DC289825FA00F240CB /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		819B57DE289826A500F240CB /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		819B57E0289827F600F240CB /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		81B12CC32893B7FB00B9D8C5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		81B12CC52893BB1200B9D8C5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		81B12CC82893C0E300B9D8C5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -87,6 +95,7 @@
 		8112F77D2892C48F00983A61 = {
 			isa = PBXGroup;
 			children = (
+				819B57DE289826A500F240CB /* HikeGraph.swift */,
 				8112F7882892C48F00983A61 /* Landmarks */,
 				8112F7872892C48F00983A61 /* Products */,
 			);
@@ -118,6 +127,8 @@
 				819B57D428981A1000F240CB /* BadgeSymbol.swift */,
 				819B57D628981ADD00F240CB /* RotatedBadgeSymbol.swift */,
 				819B57D828981B3B00F240CB /* Badge.swift */,
+				819B57DC289825FA00F240CB /* GraphCapsule.swift */,
+				819B57E0289827F600F240CB /* HikeDetail.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -158,6 +169,7 @@
 				81B12CC82893C0E300B9D8C5 /* Landmark.swift */,
 				81B12CCA2893C4BE00B9D8C5 /* Data.swift */,
 				81B12CD62893D84400B9D8C5 /* UserData.swift */,
+				819B57DA28981E9500F240CB /* Hike.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -246,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819B57DB28981E9500F240CB /* Hike.swift in Sources */,
 				8112F78C2892C49000983A61 /* LandmarkDetail.swift in Sources */,
 				819B57D12898154E00F240CB /* BadgeBackground.swift in Sources */,
 				81B12CCB2893C4BE00B9D8C5 /* Data.swift in Sources */,
@@ -256,10 +269,13 @@
 				819B57D928981B3B00F240CB /* Badge.swift in Sources */,
 				81B12CD52893CD6A00B9D8C5 /* LandmarkList.swift in Sources */,
 				8112F78A2892C48F00983A61 /* LandmarksApp.swift in Sources */,
+				819B57E1289827F600F240CB /* HikeDetail.swift in Sources */,
 				81B12CC42893B7FB00B9D8C5 /* CircleImage.swift in Sources */,
+				819B57DD289825FA00F240CB /* GraphCapsule.swift in Sources */,
 				819B57D728981ADD00F240CB /* RotatedBadgeSymbol.swift in Sources */,
 				81B12CD32893C93600B9D8C5 /* LandmarkRow.swift in Sources */,
 				81B12CC92893C0E300B9D8C5 /* Landmark.swift in Sources */,
+				819B57DF289826A500F240CB /* HikeGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

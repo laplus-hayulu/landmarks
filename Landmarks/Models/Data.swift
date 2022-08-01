@@ -2,7 +2,8 @@ import UIKit
 import SwiftUI
 import CoreLocation
 
-let landmarkData: [Landmark] = load("landmarkData.json")
+let landmarkData: [Landmark] = load("landmarkData.json") // Landmarkデータの読み込み
+let hikeData: [Hike] = load("hikeData.json") // Hikeデータの読み込み
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
